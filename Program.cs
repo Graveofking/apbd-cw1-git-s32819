@@ -29,3 +29,8 @@ public static int CalculateMax(int[] values)
 {
     return values.Max();
 }
+public static int CalculateMin(int[] values)
+{
+    if (values.Length == 0) return 0;
+    return values.Min();
+}
