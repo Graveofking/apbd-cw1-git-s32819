@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Enter numbers separated by space:");
+﻿Console.WriteLine("=== Statistics Program ===");
+
+Console.WriteLine("Enter numbers separated by space:");
 
 string input = Console.ReadLine();
 
@@ -13,9 +15,9 @@ try
         numbers[i] = int.Parse(parts[i]);
     }
 
-    Console.WriteLine("Numbers were successfully read.");
+    Console.WriteLine("Input processed successfully.");
 }
 catch
 {
-    Console.WriteLine("Invalid input");
+    Console.WriteLine("Error: Invalid input. Please enter numbers only.");
 }
