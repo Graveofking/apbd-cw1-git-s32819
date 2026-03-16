@@ -34,4 +34,8 @@ public static int CalculateMin(int[] values)
     if (values.Length == 0) return 0;// Finds the lowest value
     return values.Min();
 }
-Console.WriteLine("Statistics calculator");
+
+Console.WriteLine("Statistics calculator program");
+
+Console.WriteLine("Statistics program v1");
+
