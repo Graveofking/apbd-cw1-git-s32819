@@ -21,3 +21,7 @@ catch
 {
     Console.WriteLine("Error: Invalid input. Please enter numbers only.");
 }
+public static double CalculateAverage(int[] values)
+{
+    return values.Average();
+}
