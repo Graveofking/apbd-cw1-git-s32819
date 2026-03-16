@@ -6,9 +6,16 @@ string[] parts = input.Split(" ");
 
 int[] numbers = new int[parts.Length];
 
-for (int i = 0; i < parts.Length; i++)
+try
 {
-    numbers[i] = int.Parse(parts[i]);
-}
+    for (int i = 0; i < parts.Length; i++)
+    {
+        numbers[i] = int.Parse(parts[i]);
+    }
 
-Console.WriteLine("Numbers were successfully read.");
+    Console.WriteLine("Numbers were successfully read.");
+}
+catch
+{
+    Console.WriteLine("Invalid input");
+}
